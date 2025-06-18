@@ -1,0 +1,93 @@
+.video-recorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.video-recorder h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.record-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.stop-btn {
+  background-color: #333;
+  color: white;
+}
+
+.download-btn {
+  background-color: #4a6bff;
+  color: white;
+}
+
+.recording-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.timer {
+  font-family: monospace;
+  font-size: 18px;
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.live-preview {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; 
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-container {
+    height: 250px;
+  }
+}

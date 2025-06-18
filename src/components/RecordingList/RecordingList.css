@@ -1,0 +1,96 @@
+.recording-list {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.recording-list h3 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.recording-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recording-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.recording-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.recording-type {
+  font-weight: bold;
+}
+
+.recording-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.recording-actions audio, 
+.recording-actions video {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.download-btn {
+  padding: 8px 15px;
+  background-color: #4a6bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+  background-color: #3a5bef;
+}
+
+@media (max-width: 600px) {
+  .recording-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .recording-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .recording-actions audio,
+  .recording-actions video {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}

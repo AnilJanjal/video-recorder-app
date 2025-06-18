@@ -1,0 +1,79 @@
+.audio-recorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.audio-recorder h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.record-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.pause-btn {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.resume-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.stop-btn {
+  background-color: #333;
+  color: white;
+}
+
+.download-btn {
+  background-color: #4a6bff;
+  color: white;
+  margin-top: 15px;
+}
+
+.recording-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.timer {
+  font-family: monospace;
+  font-size: 18px;
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.playback-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+audio {
+  width: 100%;
+  max-width: 400px;
+}

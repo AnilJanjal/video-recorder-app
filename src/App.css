@@ -1,0 +1,48 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.mode-toggle span {
+  font-weight: bold;
+  color: #666;
+}
+
+.mode-toggle span.active {
+  color: #4a6bff;
+}
+
+.recorder-container {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+  
+  .mode-toggle {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
