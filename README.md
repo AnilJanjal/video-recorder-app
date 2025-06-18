@@ -1,16 +1,14 @@
-<<<<<<< HEAD
-# React + Vite
+# Media Recorder App with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built with Vite that allows users to record audio and video, preview recordings, and download or save them.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# video-recorder-app
->>>>>>> b806a8c691090586b59a1f94a654ccf5331ddd8c
+- Audio recording with microphone
+- Video recording with camera
+- Preview functionality
+- Download capability
+- Save recordings to localStorage
+- Toggle between audio and video modes
+- Recording timer
+- Clean, responsive UI
